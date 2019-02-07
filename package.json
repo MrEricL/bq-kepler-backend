@@ -1,0 +1,49 @@
+{
+  "name": "teaspoon-tycoon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/MrEricL/teaspoon-tycoon",
+  "author": "MrEricL",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack -r esm",
+    "dev-client": "webpack-dev-server --mode development -r esm",
+    "dev-server": "nodemon -r esm server/server.js",
+    "start": "node -r esm server/server.js",
+    "heroku-postbuild": "yarn build"
+  },
+  "dependencies": {
+    "@google-cloud/bigquery": "^2.0.6",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "esm": "^3.1.0",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "pg": "^7.8.0",
+    "sequelize": "^4.42.0",
+    "sodium": "^3.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "axios": "^0.18.0",
+    "babel-loader": "^8.0.5",
+    "nodemon": "^1.18.9",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-redux": "^6.0.0",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
