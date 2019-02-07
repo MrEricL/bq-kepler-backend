@@ -1,4 +1,4 @@
-Testing
+### Running
 
 Install .json credentials in the main directory
 
@@ -11,7 +11,7 @@ Open `localhost:3000`
 
 
 
-To add to the data
+### To add to the data
 
 Edit `fakedata.csv`
 
