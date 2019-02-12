@@ -1,8 +1,7 @@
 {
-  "name": "teaspoon-tycoon",
+  "name": "kepler",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/MrEricL/teaspoon-tycoon",
   "author": "MrEricL",
   "license": "MIT",
   "scripts": {
@@ -21,8 +20,7 @@
     "morgan": "^1.9.1",
     "multer": "^1.4.1",
     "path": "^0.12.7",
-    "pg": "^7.8.0",
-    "sodium": "^3.0.2"
+    "pg": "^7.8.0"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
@@ -31,13 +29,6 @@
     "axios": "^0.18.0",
     "babel-loader": "^8.0.5",
     "nodemon": "^1.18.9",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
-    "react-redux": "^6.0.0",
-    "react-router-dom": "^4.3.1",
-    "redux": "^4.0.1",
-    "redux-logger": "^3.0.6",
-    "redux-thunk": "^2.3.0",
     "webpack": "^4.28.4",
     "webpack-cli": "^3.2.1",
     "webpack-dev-server": "^3.1.14"
