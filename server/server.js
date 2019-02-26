@@ -4,6 +4,7 @@ import cors from 'cors';
 import morgan from 'morgan';
 import path from 'path';
 import multer from 'multer';
+import axios from 'axios';
 
 import apiRouter from './router';
 
