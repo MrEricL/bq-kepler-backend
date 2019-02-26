@@ -1,6 +1,6 @@
 ### Running
 
-Install .json credentials in the main directory
+Install .json credentials for google cloud in the main directory
 
 Run `yarn install`
 
@@ -16,3 +16,8 @@ Open `localhost:3000`
 Edit `fakedata.csv`
 
 Run `bq load --source_format=CSV testdata.testtable  ./fakedata.csv name:STRING,age:INTEGER`
+
+
+### Note
+
+Moved to bit bucket repo under /research
